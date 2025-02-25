@@ -3,13 +3,17 @@
 Class dan object adalah sebuah konsep yang saling berkaitan erat dan tidak dapat dipisahkan. Class merupakan cetak biru atau kerangka dalam pembuatan program, sedangkan object adalah hasil instance atau penciptaan dari sebuah class. Class merupakan prototipe yang mendefinisikan attribute dan behavior secara umum.Saat implementasi kedalam sebuah program attribute dimodelkan sebagai variabel dan behaviordimodelkan sebagai method atau yang lebih dikenal dikalangan programmer adalah function.
 
 ### 2.	Sebutkan dan jelaskan jenis-jenis method !
-#### a.	Instance Method -> Merupakan method yang hanya bisa dipanggil melalui object. Method ini dapat mengakses dan memodifikasi atribut milik object yang bersangkutan.
+#### a.	Instance Method 
+Merupakan method yang hanya bisa dipanggil melalui object. Method ini dapat mengakses dan memodifikasi atribut milik object yang bersangkutan.
 
-#### b.	Static Method -> Method yang bisa dipanggil langsung melalui class tanpa harus membuat object. Biasanya digunakan untuk operasi yang tidak bergantung pada atribut suatu object, seperti fungsi utilitas atau perhitungan matematika.
+#### b.	Static Method 
+Method yang bisa dipanggil langsung melalui class tanpa harus membuat object. Biasanya digunakan untuk operasi yang tidak bergantung pada atribut suatu object, seperti fungsi utilitas atau perhitungan matematika.
 
-#### c. Abstract Method -> Method yang hanya dideklarasikan tanpa implementasi. Method ini harus ada dalam abstract class dan wajib di-override oleh class turunannya. Tujuannya adalah untuk menentukan kerangka method yang harus diimplementasikan oleh subclass.
+#### c. Abstract Method 
+Method yang hanya dideklarasikan tanpa implementasi. Method ini harus ada dalam abstract class dan wajib di-override oleh class turunannya. Tujuannya adalah untuk menentukan kerangka method yang harus diimplementasikan oleh subclass.
 
-#### d. Getter dan Setter Method -> Method khusus yang digunakan untuk mengakses (getter) dan mengubah (setter) nilai dari atribut yang bersifat private. Dengan cara ini, data dalam class bisa lebih terkontrol dan aman.
+#### d. Getter dan Setter Method 
+Method khusus yang digunakan untuk mengakses (getter) dan mengubah (setter) nilai dari atribut yang bersifat private. Dengan cara ini, data dalam class bisa lebih terkontrol dan aman.
 
 Selain itu, ada juga final method, yang tidak bisa di-override oleh subclass, serta constructor method, yang digunakan untuk menginisialisasi object saat pertama kali dibuat.
 
